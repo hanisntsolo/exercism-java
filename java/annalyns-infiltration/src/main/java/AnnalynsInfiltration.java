@@ -1,18 +1,24 @@
 
 class AnnalynsInfiltration {
     public static boolean canFastAttack(boolean knightIsAwake) {
-        throw new UnsupportedOperationException("Please implement the (static) AnnalynsInfiltration.canFastAttack() method");
+        return !knightIsAwake;
     }
 
     public static boolean canSpy(boolean knightIsAwake, boolean archerIsAwake, boolean prisonerIsAwake) {
-        throw new UnsupportedOperationException("Please implement the (static) AnnalynsInfiltration.canSpy() method");
+        return knightIsAwake || archerIsAwake || prisonerIsAwake;
     }
 
     public static boolean canSignalPrisoner(boolean archerIsAwake, boolean prisonerIsAwake) {
-        throw new UnsupportedOperationException("Please implement the (static) AnnalynsInfiltration.canSignalPrisoner() method");
+        return prisonerIsAwake && !archerIsAwake;
     }
 
     public static boolean canFreePrisoner(boolean knightIsAwake, boolean archerIsAwake, boolean prisonerIsAwake, boolean petDogIsPresent) {
-        throw new UnsupportedOperationException("Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method");
+//        pet dog archer sleep prisonerisawake
+//        dog is missing both archer and knight are sleeping and prisoner is awake
+        if(!petDogIsPresent) {
+            return prisonerIsAwake && (canFastAttack(knightIsAwake) && !archerIsAwake);
+        }
+        return petDogIsPresent && !archerIsAwake;
     }
+
 }
