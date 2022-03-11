@@ -3,8 +3,13 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/java/annalyns-infiltration" />
+    <file type="web" url="file://$PROJECT_DIR$/java/blackjack" />
+    <file type="web" url="file://$PROJECT_DIR$/java/squeaky-clean" />
+    <file type="web" url="file://$PROJECT_DIR$/java/two-fer" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="temurin-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
   <component name="accountSettings">
     <option name="activeRegion" value="us-east-1" />
     <option name="recentlyUsedRegions">
