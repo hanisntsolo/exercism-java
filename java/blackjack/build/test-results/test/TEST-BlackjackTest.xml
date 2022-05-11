@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BlackjackTest" tests="2" skipped="0" failures="2" errors="0" timestamp="2022-03-11T18:15:44" hostname="INLEN8520065708" time="0.095">
+<testsuite name="BlackjackTest" tests="55" skipped="0" failures="2" errors="0" timestamp="2022-04-16T12:21:21" hostname="INLEN8520065708" time="0.222">
   <properties/>
   <testcase name="blackjackWithKingAceSecond" classname="BlackjackTest" time="0.003">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
 	at Blackjack.isBlackjack(Blackjack.java:26)
-	at BlackjackTest.blackjackWithKingAceSecond(BlackjackTest.java:98)
+	at BlackjackTest.blackjackWithKingAceSecond(BlackjackTest.java:97)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -58,12 +58,12 @@
 	at java.base/java.lang.Thread.run(Thread.java:829)
 </failure>
   </testcase>
-  <testcase name="firstTurnWithAceAceAndDealerAce" classname="BlackjackTest" time="0.092">
+  <testcase name="firstTurnWithAceAceAndDealerAce" classname="BlackjackTest" time="0.091">
     <failure message="org.junit.ComparisonFailure: expected:&lt;&quot;[P]&quot;&gt; but was:&lt;&quot;[S]&quot;&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;&quot;[P]&quot;&gt; but was:&lt;&quot;[S]&quot;&gt;
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at BlackjackTest.firstTurnWithAceAceAndDealerAce(BlackjackTest.java:134)
+	at BlackjackTest.firstTurnWithAceAceAndDealerAce(BlackjackTest.java:133)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -117,6 +117,59 @@
 	at java.base/java.lang.Thread.run(Thread.java:829)
 </failure>
   </testcase>
+  <testcase name="firstTurnWithTwoNineAndDealerQueen" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithKingSevenAndDealerAce" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithTwoTenAndDealerQueen" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithTwoTenAndDealerSeven" classname="BlackjackTest" time="0.001"/>
+  <testcase name="firstTurnWithKingTenAndDealerAce" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithFourTenAndDealerQueen" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithFourTenAndDealerSeven" classname="BlackjackTest" time="0.0"/>
+  <testcase name="correctParsesEight" classname="BlackjackTest" time="0.003"/>
+  <testcase name="correctParsesQueen" classname="BlackjackTest" time="0.005"/>
+  <testcase name="correctParsesSeven" classname="BlackjackTest" time="0.032"/>
+  <testcase name="correctParsesThree" classname="BlackjackTest" time="0.015"/>
+  <testcase name="firstTurnWithJackJackAndDealerAce" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithFiveTenAndDealerKing" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithEightTenAndDealerAce" classname="BlackjackTest" time="0.001"/>
+  <testcase name="blackjackWithJackAceSecond" classname="BlackjackTest" time="0.001"/>
+  <testcase name="firstTurnWithSixTenAndDealerAce" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithSixTenAndDealerSix" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithThreeTenAndDealerSix" classname="BlackjackTest" time="0.0"/>
+  <testcase name="noBlackjackWithTwoFigures" classname="BlackjackTest" time="0.001"/>
+  <testcase name="firstTurnWithTwoTwoAndDealerAce" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithAceKingAndDealerQueen" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithTwoEightAndDealerTwo" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithKingKingAndDealerAce" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithJackAceAndDealerAce" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithFiveFiveAndAce" classname="BlackjackTest" time="0.001"/>
+  <testcase name="noBlackjackWithKingAndFive" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithTwoTenAndDealerSix" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithFiveTenAndDealerSeven" classname="BlackjackTest" time="0.0"/>
+  <testcase name="blackjackWithTenAceSecond" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithTwoTwoAndDealerFive" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithFourTenAndDealerSix" classname="BlackjackTest" time="0.0"/>
+  <testcase name="noBlackjackWithTwoAces" classname="BlackjackTest" time="0.001"/>
+  <testcase name="correctParsesAce" classname="BlackjackTest" time="0.0"/>
+  <testcase name="correctParsesSix" classname="BlackjackTest" time="0.0"/>
+  <testcase name="correctParsesTen" classname="BlackjackTest" time="0.0"/>
+  <testcase name="correctParsesTwo" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithNineTenAndDealerAce" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithKingAceAndDealerNine" classname="BlackjackTest" time="0.0"/>
+  <testcase name="blackjackWithQueenAceSecond" classname="BlackjackTest" time="0.0"/>
+  <testcase name="correctParsesFive" classname="BlackjackTest" time="0.0"/>
+  <testcase name="correctParsesFour" classname="BlackjackTest" time="0.0"/>
+  <testcase name="correctParsesJack" classname="BlackjackTest" time="0.0"/>
+  <testcase name="correctParsesKing" classname="BlackjackTest" time="0.0"/>
+  <testcase name="correctParsesNine" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithSixTenAndDealerSeven" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithTenAceAndDealerFive" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithFiveTenAndDealerSix" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithTwoThreeAndDealerQueen" classname="BlackjackTest" time="0.0"/>
+  <testcase name="noBlackjackWithEightAndFive" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithThreeTenAndDealerQueen" classname="BlackjackTest" time="0.0"/>
+  <testcase name="firstTurnWithThreeTenAndDealerSeven" classname="BlackjackTest" time="0.0"/>
+  <testcase name="noBlackjackWithFive" classname="BlackjackTest" time="0.0"/>
+  <testcase name="noBlackjackWithNine" classname="BlackjackTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
